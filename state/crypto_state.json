@@ -1,0 +1,105 @@
+{
+ "cash": 982.0,
+ "positions": {
+  "XRP-USD": 2829.308046931862,
+  "SOL-USD": 35.84150870630723,
+  "BNB-USD": 4.411830562663842
+ },
+ "trades": [
+  {
+   "time": "2026-11-11",
+   "symbol": "XRP-USD",
+   "side": "BUY",
+   "qty": 2829.308047,
+   "price": 1.0603,
+   "value": 3000.0
+  },
+  {
+   "time": "2026-11-11",
+   "symbol": "SOL-USD",
+   "side": "BUY",
+   "qty": 35.841509,
+   "price": 83.7018,
+   "value": 3000.0
+  },
+  {
+   "time": "2026-11-11",
+   "symbol": "BNB-USD",
+   "side": "BUY",
+   "qty": 4.411831,
+   "price": 679.9898,
+   "value": 3000.0
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-11",
+   "equity": 9977.5,
+   "benchmark": 73882.4062
+  }
+ ],
+ "signals": {
+  "BTC-USD": {
+   "rules": 0.591,
+   "ml": -0.3,
+   "llm": null,
+   "reason": "",
+   "score": 0.146,
+   "target": 0.0
+  },
+  "ETH-USD": {
+   "rules": -0.354,
+   "ml": 0.422,
+   "llm": null,
+   "reason": "",
+   "score": 0.034,
+   "target": 0.0
+  },
+  "SOL-USD": {
+   "rules": -0.329,
+   "ml": 0.842,
+   "llm": null,
+   "reason": "",
+   "score": 0.257,
+   "target": 0.3
+  },
+  "BNB-USD": {
+   "rules": 0.583,
+   "ml": -0.227,
+   "llm": null,
+   "reason": "",
+   "score": 0.178,
+   "target": 0.3
+  },
+  "XRP-USD": {
+   "rules": -0.391,
+   "ml": 1.0,
+   "llm": null,
+   "reason": "",
+   "score": 0.305,
+   "target": 0.3
+  },
+  "ADA-USD": {
+   "rules": -0.273,
+   "ml": 0.069,
+   "llm": null,
+   "reason": "",
+   "score": -0.102,
+   "target": 0.0
+  }
+ },
+ "started": "2026-11-11",
+ "last_prices": {
+  "BTC-USD": 73882.4062,
+  "ETH-USD": 2057.1899,
+  "SOL-USD": 83.66,
+  "BNB-USD": 679.65,
+  "XRP-USD": 1.0598,
+  "ADA-USD": 0.1761
+ },
+ "weights_used": {
+  "rules": 0.5,
+  "ml": 0.5,
+  "llm": 0.0
+ }
+}

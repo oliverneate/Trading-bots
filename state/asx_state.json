@@ -1,0 +1,150 @@
+{
+ "cash": 0.0,
+ "positions": {
+  "WES.AX": 30.79554650583887,
+  "TLS.AX": 492.85020514483455,
+  "CSL.AX": 12.389680262953119,
+  "BHP.AX": 41.21155211723668
+ },
+ "trades": [
+  {
+   "time": "2026-11-11",
+   "symbol": "WES.AX",
+   "side": "BUY",
+   "qty": 30.795547,
+   "price": 81.1806,
+   "value": 2500.0
+  },
+  {
+   "time": "2026-11-11",
+   "symbol": "TLS.AX",
+   "side": "BUY",
+   "qty": 492.850205,
+   "price": 5.0725,
+   "value": 2500.0
+  },
+  {
+   "time": "2026-11-11",
+   "symbol": "CSL.AX",
+   "side": "BUY",
+   "qty": 12.38968,
+   "price": 201.7808,
+   "value": 2500.0
+  },
+  {
+   "time": "2026-11-11",
+   "symbol": "BHP.AX",
+   "side": "BUY",
+   "qty": 41.211552,
+   "price": 60.4202,
+   "value": 2490.01
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-11",
+   "equity": 9985.02,
+   "benchmark": 81.93
+  }
+ ],
+ "signals": {
+  "BHP.AX": {
+   "rules": 0.711,
+   "ml": 0.279,
+   "llm": null,
+   "reason": "",
+   "score": 0.495,
+   "target": 0.25
+  },
+  "CBA.AX": {
+   "rules": 0.145,
+   "ml": 0.748,
+   "llm": null,
+   "reason": "",
+   "score": 0.447,
+   "target": 0.0
+  },
+  "CSL.AX": {
+   "rules": 1.0,
+   "ml": -0.028,
+   "llm": null,
+   "reason": "",
+   "score": 0.486,
+   "target": 0.25
+  },
+  "NAB.AX": {
+   "rules": -0.806,
+   "ml": 0.416,
+   "llm": null,
+   "reason": "",
+   "score": -0.195,
+   "target": 0.0
+  },
+  "WES.AX": {
+   "rules": -0.066,
+   "ml": 0.996,
+   "llm": null,
+   "reason": "",
+   "score": 0.465,
+   "target": 0.25
+  },
+  "MQG.AX": {
+   "rules": 0.581,
+   "ml": 0.059,
+   "llm": null,
+   "reason": "",
+   "score": 0.32,
+   "target": 0.0
+  },
+  "FMG.AX": {
+   "rules": -0.89,
+   "ml": 0.963,
+   "llm": null,
+   "reason": "",
+   "score": 0.037,
+   "target": 0.0
+  },
+  "WDS.AX": {
+   "rules": 0.635,
+   "ml": 0.17,
+   "llm": null,
+   "reason": "",
+   "score": 0.402,
+   "target": 0.0
+  },
+  "TLS.AX": {
+   "rules": 0.4,
+   "ml": 0.495,
+   "llm": null,
+   "reason": "",
+   "score": 0.448,
+   "target": 0.25
+  },
+  "RIO.AX": {
+   "rules": -0.876,
+   "ml": 0.606,
+   "llm": null,
+   "reason": "",
+   "score": -0.135,
+   "target": 0.0
+  }
+ },
+ "started": "2026-11-11",
+ "last_prices": {
+  "BHP.AX": 60.39,
+  "CBA.AX": 166.94,
+  "CSL.AX": 201.68,
+  "NAB.AX": 38.56,
+  "WES.AX": 81.14,
+  "MQG.AX": 249.23,
+  "FMG.AX": 15.42,
+  "WDS.AX": 30.9,
+  "TLS.AX": 5.07,
+  "RIO.AX": 153.87
+ },
+ "weights_used": {
+  "rules": 0.5,
+  "ml": 0.5,
+  "llm": 0.0
+ }
+}

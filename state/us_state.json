@@ -1,0 +1,150 @@
+{
+ "cash": 0.0,
+ "positions": {
+  "AAPL": 7.169810205359899,
+  "META": 3.895836492024726,
+  "XOM": 15.192744002807965,
+  "MSFT": 4.667952833232893
+ },
+ "trades": [
+  {
+   "time": "2026-11-10",
+   "symbol": "AAPL",
+   "side": "BUY",
+   "qty": 7.16981,
+   "price": 348.6843,
+   "value": 2500.0
+  },
+  {
+   "time": "2026-11-10",
+   "symbol": "META",
+   "side": "BUY",
+   "qty": 3.895836,
+   "price": 641.7107,
+   "value": 2500.0
+  },
+  {
+   "time": "2026-11-10",
+   "symbol": "XOM",
+   "side": "BUY",
+   "qty": 15.192744,
+   "price": 164.5522,
+   "value": 2500.0
+  },
+  {
+   "time": "2026-11-10",
+   "symbol": "MSFT",
+   "side": "BUY",
+   "qty": 4.667953,
+   "price": 533.4266,
+   "value": 2490.01
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-10",
+   "equity": 9985.02,
+   "benchmark": 749.92
+  }
+ ],
+ "signals": {
+  "AAPL": {
+   "rules": 1.0,
+   "ml": 0.393,
+   "llm": null,
+   "reason": "",
+   "score": 0.697,
+   "target": 0.25
+  },
+  "MSFT": {
+   "rules": 0.886,
+   "ml": 0.376,
+   "llm": null,
+   "reason": "",
+   "score": 0.631,
+   "target": 0.25
+  },
+  "NVDA": {
+   "rules": -0.4,
+   "ml": 0.934,
+   "llm": null,
+   "reason": "",
+   "score": 0.267,
+   "target": 0.0
+  },
+  "AMZN": {
+   "rules": 0.726,
+   "ml": 0.376,
+   "llm": null,
+   "reason": "",
+   "score": 0.551,
+   "target": 0.0
+  },
+  "GOOGL": {
+   "rules": -0.991,
+   "ml": 0.536,
+   "llm": null,
+   "reason": "",
+   "score": -0.227,
+   "target": 0.0
+  },
+  "META": {
+   "rules": 0.845,
+   "ml": 0.423,
+   "llm": null,
+   "reason": "",
+   "score": 0.634,
+   "target": 0.25
+  },
+  "JPM": {
+   "rules": 0.526,
+   "ml": 0.393,
+   "llm": null,
+   "reason": "",
+   "score": 0.46,
+   "target": 0.0
+  },
+  "XOM": {
+   "rules": 0.783,
+   "ml": 0.376,
+   "llm": null,
+   "reason": "",
+   "score": 0.58,
+   "target": 0.25
+  },
+  "UNH": {
+   "rules": 0.712,
+   "ml": 0.376,
+   "llm": null,
+   "reason": "",
+   "score": 0.544,
+   "target": 0.0
+  },
+  "COST": {
+   "rules": 0.4,
+   "ml": 0.655,
+   "llm": null,
+   "reason": "",
+   "score": 0.528,
+   "target": 0.0
+  }
+ },
+ "started": "2026-11-10",
+ "last_prices": {
+  "AAPL": 348.51,
+  "MSFT": 533.16,
+  "NVDA": 168.89,
+  "AMZN": 270.87,
+  "GOOGL": 287.38,
+  "META": 641.39,
+  "JPM": 342.07,
+  "XOM": 164.47,
+  "UNH": 405.12,
+  "COST": 1066.14
+ },
+ "weights_used": {
+  "rules": 0.5,
+  "ml": 0.5,
+  "llm": 0.0
+ }
+}
