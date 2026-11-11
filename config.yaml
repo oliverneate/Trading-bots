@@ -1,0 +1,46 @@
+# Three bots, one per market. Each combines three signals:
+#   rules  - classic trend/momentum rules
+#   ml     - gradient-boosting model trained on past prices
+#   llm    - Claude reads recent news headlines and scores sentiment
+# Final score = weighted sum. The bot holds the top-scoring assets whose
+# score clears `buy_threshold`, equal-weighted, and keeps the rest in cash.
+
+defaults:
+  starting_cash: 10000
+  fee_pct: 0.001          # 0.1% per trade (brokerage + spread estimate)
+  slippage_pct: 0.0005
+  max_positions: 4
+  max_weight: 0.30        # never more than 30% in one asset
+  buy_threshold: 0.15     # combined score needed to hold an asset
+  rebalance_band: 0.05    # ignore weight changes smaller than 5% (saves fees)
+  hold_bonus: 0.25        # stickiness: held assets get +0.25 when ranking (less churn, fewer fees)
+  history_days: 1500      # price history used for training/backtests
+  weights:
+    rules: 0.4
+    ml: 0.4
+    llm: 0.2              # if no ANTHROPIC_API_KEY, llm weight is redistributed
+  llm_model: claude-haiku-5-5   # cheap + fast; change to any Claude model id
+
+markets:
+  us:
+    name: US Stocks
+    currency: USD
+    broker: paper          # "paper" (built-in simulator) or "alpaca"
+    benchmark: SPY
+    symbols: [AAPL, MSFT, NVDA, AMZN, GOOGL, META, JPM, XOM, UNH, COST]
+
+  asx:
+    name: ASX
+    currency: AUD
+    broker: paper          # ASX has no free paper-trading API, so simulated
+    benchmark: STW.AX      # SPDR ASX 200 ETF
+    symbols: [BHP.AX, CBA.AX, CSL.AX, NAB.AX, WES.AX, MQG.AX, FMG.AX, WDS.AX, TLS.AX, RIO.AX]
+
+  crypto:
+    name: Crypto
+    currency: USD
+    broker: paper          # or "alpaca" (Alpaca paper supports crypto)
+    benchmark: BTC-USD
+    symbols: [BTC-USD, ETH-USD, SOL-USD, BNB-USD, XRP-USD, ADA-USD]
+    fee_pct: 0.002         # crypto exchanges usually charge more
+    max_positions: 3
