@@ -50,102 +50,107 @@
    "date": "2026-11-12",
    "equity": 10007.99,
    "benchmark": 81.96
+  },
+  {
+   "date": "2026-11-13",
+   "equity": 9936.94,
+   "benchmark": 81.41
   }
  ],
  "signals": {
   "BHP.AX": {
-   "rules": 0.666,
-   "ml": 0.64,
+   "rules": 0.591,
+   "ml": 0.912,
    "llm": null,
    "reason": "",
-   "score": 0.653,
+   "score": 0.751,
    "target": 0.25
   },
   "CBA.AX": {
-   "rules": 0.242,
-   "ml": 0.135,
+   "rules": 0.286,
+   "ml": 0.067,
    "llm": null,
    "reason": "",
-   "score": 0.188,
+   "score": 0.176,
    "target": 0.0
   },
   "CSL.AX": {
    "rules": 1.0,
-   "ml": 0.446,
+   "ml": 0.091,
    "llm": null,
    "reason": "",
-   "score": 0.723,
+   "score": 0.545,
    "target": 0.25
   },
   "NAB.AX": {
-   "rules": -0.697,
-   "ml": 0.258,
+   "rules": -0.673,
+   "ml": -0.089,
    "llm": null,
    "reason": "",
-   "score": -0.219,
+   "score": -0.381,
    "target": 0.0
   },
   "WES.AX": {
-   "rules": 0.033,
-   "ml": 0.742,
+   "rules": 0.037,
+   "ml": 0.894,
    "llm": null,
    "reason": "",
-   "score": 0.388,
+   "score": 0.466,
    "target": 0.25
   },
   "MQG.AX": {
-   "rules": 0.583,
-   "ml": 0.192,
+   "rules": 0.587,
+   "ml": 0.277,
    "llm": null,
    "reason": "",
-   "score": 0.388,
+   "score": 0.432,
    "target": 0.0
   },
   "FMG.AX": {
-   "rules": -0.926,
-   "ml": -0.034,
+   "rules": -0.942,
+   "ml": 0.348,
    "llm": null,
    "reason": "",
-   "score": -0.48,
+   "score": -0.297,
    "target": 0.0
   },
   "WDS.AX": {
-   "rules": 0.626,
-   "ml": 0.226,
+   "rules": 0.61,
+   "ml": 0.001,
    "llm": null,
    "reason": "",
-   "score": 0.426,
+   "score": 0.306,
    "target": 0.0
   },
   "TLS.AX": {
    "rules": 0.4,
-   "ml": 0.645,
+   "ml": 0.281,
    "llm": null,
    "reason": "",
-   "score": 0.523,
+   "score": 0.341,
    "target": 0.25
   },
   "RIO.AX": {
-   "rules": -0.913,
-   "ml": 0.553,
+   "rules": -0.938,
+   "ml": 0.617,
    "llm": null,
    "reason": "",
-   "score": -0.18,
+   "score": -0.16,
    "target": 0.0
   }
  },
  "started": "2026-11-11",
  "last_prices": {
-  "BHP.AX": 59.755,
-  "CBA.AX": 170.28,
-  "CSL.AX": 204.08,
-  "NAB.AX": 38.66,
-  "WES.AX": 81.29,
-  "MQG.AX": 248.15,
-  "FMG.AX": 15.165,
-  "WDS.AX": 31.01,
-  "TLS.AX": 5.1,
-  "RIO.AX": 151.565
+  "BHP.AX": 58.79,
+  "CBA.AX": 170.43,
+  "CSL.AX": 202.09,
+  "NAB.AX": 38.785,
+  "WES.AX": 80.835,
+  "MQG.AX": 243.59,
+  "FMG.AX": 14.95,
+  "WDS.AX": 31.085,
+  "TLS.AX": 5.115,
+  "RIO.AX": 148.65
  },
  "weights_used": {
   "rules": 0.5,
