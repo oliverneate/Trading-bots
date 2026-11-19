@@ -230,102 +230,107 @@
    "date": "2026-11-18",
    "equity": 9502.61,
    "benchmark": 729.66
+  },
+  {
+   "date": "2026-11-19",
+   "equity": 9353.81,
+   "benchmark": 717.26
   }
  ],
  "signals": {
   "AAPL": {
    "rules": 1.0,
-   "ml": 0.318,
+   "ml": 0.353,
    "llm": null,
    "reason": "",
-   "score": 0.659,
+   "score": 0.677,
    "target": 0.25
   },
   "MSFT": {
-   "rules": 0.813,
-   "ml": -0.218,
+   "rules": 0.78,
+   "ml": -0.172,
    "llm": null,
    "reason": "",
-   "score": 0.298,
+   "score": 0.304,
    "target": 0.0
   },
   "NVDA": {
    "rules": -0.4,
-   "ml": 1.0,
+   "ml": 0.988,
    "llm": null,
    "reason": "",
-   "score": 0.3,
+   "score": 0.294,
    "target": 0.0
   },
   "AMZN": {
-   "rules": 0.742,
-   "ml": 0.442,
+   "rules": 0.692,
+   "ml": -0.169,
    "llm": null,
    "reason": "",
-   "score": 0.592,
+   "score": 0.261,
    "target": 0.25
   },
   "GOOGL": {
-   "rules": -0.988,
+   "rules": -1.0,
    "ml": 1.0,
    "llm": null,
    "reason": "",
-   "score": 0.006,
+   "score": 0.0,
    "target": 0.0
   },
   "META": {
-   "rules": 0.071,
-   "ml": 0.367,
+   "rules": 0.018,
+   "ml": 0.065,
    "llm": null,
    "reason": "",
-   "score": 0.219,
+   "score": 0.041,
    "target": 0.0
   },
   "JPM": {
-   "rules": 0.495,
-   "ml": -0.475,
+   "rules": -0.337,
+   "ml": 0.167,
    "llm": null,
    "reason": "",
-   "score": 0.01,
+   "score": -0.085,
    "target": 0.0
   },
   "XOM": {
-   "rules": 0.644,
-   "ml": 0.485,
+   "rules": 0.632,
+   "ml": 0.69,
    "llm": null,
    "reason": "",
-   "score": 0.565,
+   "score": 0.661,
    "target": 0.25
   },
   "UNH": {
-   "rules": -0.254,
-   "ml": 0.445,
+   "rules": -0.348,
+   "ml": 1.0,
    "llm": null,
    "reason": "",
-   "score": 0.095,
+   "score": 0.326,
    "target": 0.0
   },
   "COST": {
    "rules": 1.0,
-   "ml": 0.882,
+   "ml": 1.0,
    "llm": null,
    "reason": "",
-   "score": 0.941,
+   "score": 1.0,
    "target": 0.25
   }
  },
  "started": "2026-11-10",
  "last_prices": {
-  "AAPL": 351.875,
-  "MSFT": 506.12,
-  "NVDA": 150.5,
-  "AMZN": 265.9402,
-  "GOOGL": 283.15,
-  "META": 613.92,
-  "JPM": 324.64,
-  "XOM": 160.94,
-  "UNH": 350.1,
-  "COST": 1103.34
+  "AAPL": 349.25,
+  "MSFT": 501.07,
+  "NVDA": 147.365,
+  "AMZN": 257.48,
+  "GOOGL": 274.26,
+  "META": 597.76,
+  "JPM": 320.535,
+  "XOM": 158.98,
+  "UNH": 332.76,
+  "COST": 1090.92
  },
  "weights_used": {
   "rules": 0.5,
