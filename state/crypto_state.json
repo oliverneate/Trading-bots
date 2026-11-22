@@ -1,9 +1,9 @@
 {
- "cash": 1106.812580374682,
+ "cash": 1089.7948983268839,
  "positions": {
   "ETH-USD": 1.534800692049864,
   "BTC-USD": 0.04446937827460965,
-  "SOL-USD": 38.70082373701307
+  "BNB-USD": 4.951521199752895
  },
  "trades": [
   {
@@ -141,6 +141,22 @@
    "qty": 38.700824,
    "price": 68.9545,
    "value": 2668.59
+  },
+  {
+   "time": "2026-11-22",
+   "symbol": "SOL-USD",
+   "side": "SELL",
+   "qty": 38.700824,
+   "price": 70.2149,
+   "value": 2717.37
+  },
+  {
+   "time": "2026-11-22",
+   "symbol": "BNB-USD",
+   "side": "BUY",
+   "qty": 4.951521,
+   "price": 550.0349,
+   "value": 2723.51
   }
  ],
  "history": [
@@ -198,32 +214,37 @@
    "date": "2026-11-21",
    "equity": 8888.64,
    "benchmark": 59039.4102
+  },
+  {
+   "date": "2026-11-22",
+   "equity": 9064.76,
+   "benchmark": 60076.0703
   }
  ],
  "signals": {
   "BTC-USD": {
    "rules": -0.4,
-   "ml": 1.0,
+   "ml": 0.705,
    "llm": null,
    "reason": "",
-   "score": 0.3,
+   "score": 0.153,
    "target": 0.3
   },
   "ETH-USD": {
    "rules": -0.4,
-   "ml": 1.0,
+   "ml": 0.707,
    "llm": null,
    "reason": "",
-   "score": 0.3,
+   "score": 0.153,
    "target": 0.3
   },
   "SOL-USD": {
    "rules": -0.4,
-   "ml": 1.0,
+   "ml": -0.227,
    "llm": null,
    "reason": "",
-   "score": 0.3,
-   "target": 0.3
+   "score": -0.314,
+   "target": 0.0
   },
   "BNB-USD": {
    "rules": -0.4,
@@ -231,33 +252,33 @@
    "llm": null,
    "reason": "",
    "score": 0.3,
-   "target": 0.0
+   "target": 0.3
   },
   "XRP-USD": {
-   "rules": -0.4,
-   "ml": -0.423,
+   "rules": -1.0,
+   "ml": -0.349,
    "llm": null,
    "reason": "",
-   "score": -0.412,
+   "score": -0.675,
    "target": 0.0
   },
   "ADA-USD": {
    "rules": -0.4,
-   "ml": 1.0,
+   "ml": 0.675,
    "llm": null,
    "reason": "",
-   "score": 0.3,
+   "score": 0.138,
    "target": 0.0
   }
  },
  "started": "2026-11-11",
  "last_prices": {
-  "BTC-USD": 59039.4102,
-  "ETH-USD": 1621.79,
-  "SOL-USD": 68.92,
-  "BNB-USD": 539.22,
-  "XRP-USD": 0.908,
-  "ADA-USD": 0.1431
+  "BTC-USD": 60076.0703,
+  "ETH-USD": 1681.83,
+  "SOL-USD": 70.25,
+  "BNB-USD": 549.76,
+  "XRP-USD": 0.9295,
+  "ADA-USD": 0.1441
  },
  "weights_used": {
   "rules": 0.5,
