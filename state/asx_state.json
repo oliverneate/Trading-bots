@@ -157,55 +157,60 @@
    "date": "2026-11-23",
    "equity": 9489.68,
    "benchmark": 76.87
+  },
+  {
+   "date": "2026-11-24",
+   "equity": 9607.58,
+   "benchmark": 78.1
   }
  ],
  "signals": {
   "BHP.AX": {
    "rules": -0.4,
-   "ml": 1.0,
+   "ml": 0.886,
    "llm": null,
    "reason": "",
-   "score": 0.3,
+   "score": 0.243,
    "target": 0.25
   },
   "CBA.AX": {
-   "rules": 0.319,
-   "ml": 0.927,
+   "rules": 0.358,
+   "ml": 0.75,
    "llm": null,
    "reason": "",
-   "score": 0.623,
+   "score": 0.554,
    "target": 0.25
   },
   "CSL.AX": {
    "rules": 1.0,
-   "ml": 0.561,
+   "ml": -0.293,
    "llm": null,
    "reason": "",
-   "score": 0.781,
+   "score": 0.353,
    "target": 0.25
   },
   "NAB.AX": {
-   "rules": -0.79,
-   "ml": 0.962,
+   "rules": -0.718,
+   "ml": 0.547,
    "llm": null,
    "reason": "",
-   "score": 0.086,
+   "score": -0.086,
    "target": 0.0
   },
   "WES.AX": {
-   "rules": -0.869,
-   "ml": 0.587,
+   "rules": -0.707,
+   "ml": 0.687,
    "llm": null,
    "reason": "",
-   "score": -0.141,
+   "score": -0.01,
    "target": 0.0
   },
   "MQG.AX": {
-   "rules": -0.4,
-   "ml": 0.804,
+   "rules": -0.338,
+   "ml": 0.693,
    "llm": null,
    "reason": "",
-   "score": 0.202,
+   "score": 0.178,
    "target": 0.0
   },
   "FMG.AX": {
@@ -217,42 +222,42 @@
    "target": 0.0
   },
   "WDS.AX": {
-   "rules": -0.215,
-   "ml": 0.511,
+   "rules": -0.226,
+   "ml": 0.333,
    "llm": null,
    "reason": "",
-   "score": 0.148,
+   "score": 0.054,
    "target": 0.0
   },
   "TLS.AX": {
    "rules": 0.4,
-   "ml": 0.363,
+   "ml": 0.592,
    "llm": null,
    "reason": "",
-   "score": 0.382,
+   "score": 0.496,
    "target": 0.25
   },
   "RIO.AX": {
    "rules": -1.0,
-   "ml": 0.745,
+   "ml": 1.0,
    "llm": null,
    "reason": "",
-   "score": -0.128,
+   "score": 0.0,
    "target": 0.0
   }
  },
  "started": "2026-11-11",
  "last_prices": {
-  "BHP.AX": 52.44,
-  "CBA.AX": 167.12,
-  "CSL.AX": 199.565,
-  "NAB.AX": 35.98,
-  "WES.AX": 76.415,
-  "MQG.AX": 223.67,
-  "FMG.AX": 13.49,
-  "WDS.AX": 29.595,
-  "TLS.AX": 5.14,
-  "RIO.AX": 136.64
+  "BHP.AX": 52.865,
+  "CBA.AX": 168.93,
+  "CSL.AX": 202.71,
+  "NAB.AX": 36.86,
+  "WES.AX": 78.06,
+  "MQG.AX": 227.5,
+  "FMG.AX": 13.57,
+  "WDS.AX": 29.52,
+  "TLS.AX": 5.215,
+  "RIO.AX": 137.44
  },
  "weights_used": {
   "rules": 0.5,
