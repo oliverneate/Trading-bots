@@ -4,7 +4,7 @@
   "AAPL": 6.7592535880920765,
   "COST": 2.155638699785638,
   "XOM": 14.778034334112993,
-  "AMZN": 8.902058123384698
+  "MSFT": 4.4453569613848165
  },
  "trades": [
   {
@@ -198,6 +198,22 @@
    "qty": 8.902058,
    "price": 266.0732,
    "value": 2368.6
+  },
+  {
+   "time": "2026-11-25",
+   "symbol": "AMZN",
+   "side": "SELL",
+   "qty": 8.902058,
+   "price": 245.0374,
+   "value": 2181.34
+  },
+  {
+   "time": "2026-11-25",
+   "symbol": "MSFT",
+   "side": "BUY",
+   "qty": 4.445357,
+   "price": 489.7197,
+   "value": 2176.98
   }
  ],
  "history": [
@@ -250,79 +266,84 @@
    "date": "2026-11-24",
    "equity": 9314.31,
    "benchmark": 716.5107
+  },
+  {
+   "date": "2026-11-25",
+   "equity": 9274.04,
+   "benchmark": 716.1
   }
  ],
  "signals": {
   "AAPL": {
    "rules": 1.0,
-   "ml": 0.088,
+   "ml": 0.227,
    "llm": null,
    "reason": "",
-   "score": 0.544,
+   "score": 0.614,
    "target": 0.25
   },
   "MSFT": {
-   "rules": 0.693,
-   "ml": -0.33,
+   "rules": 0.638,
+   "ml": 0.535,
    "llm": null,
    "reason": "",
-   "score": 0.182,
-   "target": 0.0
+   "score": 0.587,
+   "target": 0.25
   },
   "NVDA": {
-   "rules": -0.294,
-   "ml": -1.0,
+   "rules": -0.359,
+   "ml": -0.683,
    "llm": null,
    "reason": "",
-   "score": -0.647,
+   "score": -0.521,
    "target": 0.0
   },
   "AMZN": {
-   "rules": 0.641,
-   "ml": 0.129,
+   "rules": -0.174,
+   "ml": 0.221,
    "llm": null,
    "reason": "",
-   "score": 0.385,
-   "target": 0.25
+   "score": 0.024,
+   "target": 0.0
   },
   "GOOGL": {
-   "rules": -0.997,
-   "ml": -0.033,
+   "rules": -1.0,
+   "ml": 1.0,
    "llm": null,
    "reason": "",
-   "score": -0.515,
+   "score": 0.0,
    "target": 0.0
   },
   "META": {
-   "rules": -0.072,
-   "ml": 0.185,
+   "rules": -0.024,
+   "ml": 0.167,
    "llm": null,
    "reason": "",
-   "score": 0.056,
+   "score": 0.071,
    "target": 0.0
   },
   "JPM": {
-   "rules": -0.39,
-   "ml": 0.207,
+   "rules": -0.368,
+   "ml": 0.275,
    "llm": null,
    "reason": "",
-   "score": -0.092,
+   "score": -0.047,
    "target": 0.0
   },
   "XOM": {
-   "rules": 0.724,
-   "ml": 0.644,
+   "rules": 0.754,
+   "ml": 0.622,
    "llm": null,
    "reason": "",
-   "score": 0.684,
+   "score": 0.688,
    "target": 0.25
   },
   "UNH": {
-   "rules": -0.335,
-   "ml": 0.434,
+   "rules": -0.305,
+   "ml": 0.617,
    "llm": null,
    "reason": "",
-   "score": 0.049,
+   "score": 0.156,
    "target": 0.0
   },
   "COST": {
@@ -336,16 +357,16 @@
  },
  "started": "2026-11-10",
  "last_prices": {
-  "AAPL": 351.83,
-  "MSFT": 493.8668,
-  "NVDA": 153.04,
-  "AMZN": 251.38,
-  "GOOGL": 277.23,
-  "META": 588.495,
-  "JPM": 316.58,
-  "XOM": 158.93,
-  "UNH": 343.68,
-  "COST": 1090.04
+  "AAPL": 354.67,
+  "MSFT": 489.475,
+  "NVDA": 148.055,
+  "AMZN": 245.16,
+  "GOOGL": 272.05,
+  "META": 605.5101,
+  "JPM": 317.5,
+  "XOM": 159.23,
+  "UNH": 345.71,
+  "COST": 1089.115
  },
  "weights_used": {
   "rules": 0.5,
