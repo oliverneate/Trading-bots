@@ -269,8 +269,8 @@
   },
   {
    "date": "2026-11-25",
-   "equity": 9274.04,
-   "benchmark": 716.1
+   "equity": 9260.25,
+   "benchmark": 716.7
   }
  ],
  "signals": {
@@ -283,27 +283,27 @@
    "target": 0.25
   },
   "MSFT": {
-   "rules": 0.638,
+   "rules": 0.64,
    "ml": 0.535,
    "llm": null,
    "reason": "",
-   "score": 0.587,
+   "score": 0.588,
    "target": 0.25
   },
   "NVDA": {
-   "rules": -0.359,
+   "rules": -0.355,
    "ml": -0.683,
    "llm": null,
    "reason": "",
-   "score": -0.521,
+   "score": -0.519,
    "target": 0.0
   },
   "AMZN": {
-   "rules": -0.174,
-   "ml": 0.221,
+   "rules": -0.178,
+   "ml": 0.308,
    "llm": null,
    "reason": "",
-   "score": 0.024,
+   "score": 0.065,
    "target": 0.0
   },
   "GOOGL": {
@@ -315,35 +315,35 @@
    "target": 0.0
   },
   "META": {
-   "rules": -0.024,
-   "ml": 0.167,
+   "rules": -0.015,
+   "ml": 0.321,
    "llm": null,
    "reason": "",
-   "score": 0.071,
+   "score": 0.153,
    "target": 0.0
   },
   "JPM": {
-   "rules": -0.368,
+   "rules": -0.374,
    "ml": 0.275,
    "llm": null,
    "reason": "",
-   "score": -0.047,
+   "score": -0.05,
    "target": 0.0
   },
   "XOM": {
-   "rules": 0.754,
+   "rules": 0.738,
    "ml": 0.622,
    "llm": null,
    "reason": "",
-   "score": 0.688,
+   "score": 0.68,
    "target": 0.25
   },
   "UNH": {
-   "rules": -0.305,
+   "rules": -0.303,
    "ml": 0.617,
    "llm": null,
    "reason": "",
-   "score": 0.156,
+   "score": 0.157,
    "target": 0.0
   },
   "COST": {
@@ -357,16 +357,16 @@
  },
  "started": "2026-11-10",
  "last_prices": {
-  "AAPL": 354.67,
-  "MSFT": 489.475,
-  "NVDA": 148.055,
-  "AMZN": 245.16,
-  "GOOGL": 272.05,
-  "META": 605.5101,
-  "JPM": 317.5,
-  "XOM": 159.23,
-  "UNH": 345.71,
-  "COST": 1089.115
+  "AAPL": 355.58,
+  "MSFT": 489.93,
+  "NVDA": 149.3,
+  "AMZN": 244.43,
+  "GOOGL": 273.1,
+  "META": 609.89,
+  "JPM": 316.74,
+  "XOM": 158.08,
+  "UNH": 346.19,
+  "COST": 1086.8101
  },
  "weights_used": {
   "rules": 0.5,
