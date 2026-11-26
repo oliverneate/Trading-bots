@@ -286,66 +286,71 @@
    "date": "2026-11-25",
    "equity": 9194.73,
    "benchmark": 59397.6484
+  },
+  {
+   "date": "2026-11-26",
+   "equity": 9194.73,
+   "benchmark": 60757.0586
   }
  ],
  "signals": {
   "BTC-USD": {
    "rules": -0.4,
-   "ml": -0.422,
+   "ml": -0.264,
    "llm": null,
    "reason": "",
-   "score": -0.411,
+   "score": -0.332,
    "target": 0.0
   },
   "ETH-USD": {
    "rules": -0.4,
-   "ml": -0.844,
+   "ml": -1.0,
    "llm": null,
    "reason": "",
-   "score": -0.622,
+   "score": -0.7,
    "target": 0.0
   },
   "SOL-USD": {
    "rules": -0.4,
-   "ml": -0.72,
+   "ml": -0.92,
    "llm": null,
    "reason": "",
-   "score": -0.56,
+   "score": -0.66,
    "target": 0.0
   },
   "BNB-USD": {
    "rules": -0.4,
-   "ml": 0.141,
+   "ml": 0.122,
    "llm": null,
    "reason": "",
-   "score": -0.13,
+   "score": -0.139,
    "target": 0.0
   },
   "XRP-USD": {
    "rules": -1.0,
-   "ml": -0.735,
+   "ml": -0.732,
    "llm": null,
    "reason": "",
-   "score": -0.867,
+   "score": -0.866,
    "target": 0.0
   },
   "ADA-USD": {
    "rules": -1.0,
-   "ml": -0.314,
+   "ml": -0.583,
    "llm": null,
    "reason": "",
-   "score": -0.657,
+   "score": -0.792,
    "target": 0.0
   }
  },
  "started": "2026-11-11",
  "last_prices": {
-  "BTC-USD": 59397.6484,
-  "ETH-USD": 1665.91,
-  "SOL-USD": 69.42,
-  "BNB-USD": 544.59,
-  "XRP-USD": 0.9188,
-  "ADA-USD": 0.1434
+  "BTC-USD": 60757.0586,
+  "ETH-USD": 1703.04,
+  "SOL-USD": 71.05,
+  "BNB-USD": 556.51,
+  "XRP-USD": 0.9444,
+  "ADA-USD": 0.1472
  },
  "weights_used": {
   "rules": 0.5,
